@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Part 1_Object-Oriented Swift'/>
+        <page name='Part2_Enumerations and Optionals in Swift'/>
+        <page name='Part3_Protocol in Swift'/>
+        <page name='Part 4_Error Handling in Swift'/>
+        <page name='Part 5_A Simple App'/>
+    </pages>
+</playground>
