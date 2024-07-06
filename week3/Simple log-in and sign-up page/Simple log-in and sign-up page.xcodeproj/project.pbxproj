@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B31ED22E2C35344C006DAD07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31ED22D2C35344C006DAD07 /* AppDelegate.swift */; };
+		B31ED2302C35344C006DAD07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31ED22F2C35344C006DAD07 /* SceneDelegate.swift */; };
+		B31ED2322C35344C006DAD07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31ED2312C35344C006DAD07 /* ViewController.swift */; };
+		B31ED2352C35344C006DAD07 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B31ED2342C35344C006DAD07 /* Base */; };
+		B31ED2372C35344E006DAD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31ED2362C35344E006DAD07 /* Assets.xcassets */; };
+		B31ED23A2C35344E006DAD07 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B31ED2392C35344E006DAD07 /* Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B31ED2412C35344E006DAD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31ED2222C35344C006DAD07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31ED2292C35344C006DAD07;
+			remoteInfo = "Simple log-in and sign-up page";
+		};
+		B31ED24B2C35344E006DAD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31ED2222C35344C006DAD07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31ED2292C35344C006DAD07;
+			remoteInfo = "Simple log-in and sign-up page";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B31ED22A2C35344C006DAD07 /* Simple log-in and sign-up page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple log-in and sign-up page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31ED22D2C35344C006DAD07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B31ED22F2C35344C006DAD07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B31ED2312C35344C006DAD07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B31ED2342C35344C006DAD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B31ED2362C35344E006DAD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B31ED2392C35344E006DAD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B31ED23B2C35344E006DAD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31ED2402C35344E006DAD07 /* Simple log-in and sign-up pageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple log-in and sign-up pageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31ED24A2C35344E006DAD07 /* Simple log-in and sign-up pageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple log-in and sign-up pageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B31ED2272C35344C006DAD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31ED23D2C35344E006DAD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31ED2472C35344E006DAD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B31ED2212C35344C006DAD07 = {
+			isa = PBXGroup;
+			children = (
+				B31ED22C2C35344C006DAD07 /* Simple log-in and sign-up page */,
+				B31ED22B2C35344C006DAD07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B31ED22B2C35344C006DAD07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B31ED22A2C35344C006DAD07 /* Simple log-in and sign-up page.app */,
+				B31ED2402C35344E006DAD07 /* Simple log-in and sign-up pageTests.xctest */,
+				B31ED24A2C35344E006DAD07 /* Simple log-in and sign-up pageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B31ED22C2C35344C006DAD07 /* Simple log-in and sign-up page */ = {
+			isa = PBXGroup;
+			children = (
+				B31ED22D2C35344C006DAD07 /* AppDelegate.swift */,
+				B31ED22F2C35344C006DAD07 /* SceneDelegate.swift */,
+				B31ED2312C35344C006DAD07 /* ViewController.swift */,
+				B31ED2332C35344C006DAD07 /* Main.storyboard */,
+				B31ED2362C35344E006DAD07 /* Assets.xcassets */,
+				B31ED2382C35344E006DAD07 /* LaunchScreen.storyboard */,
+				B31ED23B2C35344E006DAD07 /* Info.plist */,
+			);
+			path = "Simple log-in and sign-up page";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B31ED2292C35344C006DAD07 /* Simple log-in and sign-up page */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31ED2542C35344E006DAD07 /* Build configuration list for PBXNativeTarget "Simple log-in and sign-up page" */;
+			buildPhases = (
+				B31ED2262C35344C006DAD07 /* Sources */,
+				B31ED2272C35344C006DAD07 /* Frameworks */,
+				B31ED2282C35344C006DAD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple log-in and sign-up page";
+			productName = "Simple log-in and sign-up page";
+			productReference = B31ED22A2C35344C006DAD07 /* Simple log-in and sign-up page.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B31ED23F2C35344E006DAD07 /* Simple log-in and sign-up pageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31ED2572C35344E006DAD07 /* Build configuration list for PBXNativeTarget "Simple log-in and sign-up pageTests" */;
+			buildPhases = (
+				B31ED23C2C35344E006DAD07 /* Sources */,
+				B31ED23D2C35344E006DAD07 /* Frameworks */,
+				B31ED23E2C35344E006DAD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31ED2422C35344E006DAD07 /* PBXTargetDependency */,
+			);
+			name = "Simple log-in and sign-up pageTests";
+			productName = "Simple log-in and sign-up pageTests";
+			productReference = B31ED2402C35344E006DAD07 /* Simple log-in and sign-up pageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B31ED2492C35344E006DAD07 /* Simple log-in and sign-up pageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31ED25A2C35344E006DAD07 /* Build configuration list for PBXNativeTarget "Simple log-in and sign-up pageUITests" */;
+			buildPhases = (
+				B31ED2462C35344E006DAD07 /* Sources */,
+				B31ED2472C35344E006DAD07 /* Frameworks */,
+				B31ED2482C35344E006DAD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31ED24C2C35344E006DAD07 /* PBXTargetDependency */,
+			);
+			name = "Simple log-in and sign-up pageUITests";
+			productName = "Simple log-in and sign-up pageUITests";
+			productReference = B31ED24A2C35344E006DAD07 /* Simple log-in and sign-up pageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31ED2222C35344C006DAD07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B31ED2292C35344C006DAD07 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B31ED23F2C35344E006DAD07 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B31ED2292C35344C006DAD07;
+					};
+					B31ED2492C35344E006DAD07 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B31ED2292C35344C006DAD07;
+					};
+				};
+			};
+			buildConfigurationList = B31ED2252C35344C006DAD07 /* Build configuration list for PBXProject "Simple log-in and sign-up page" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B31ED2212C35344C006DAD07;
+			productRefGroup = B31ED22B2C35344C006DAD07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B31ED2292C35344C006DAD07 /* Simple log-in and sign-up page */,
+				B31ED23F2C35344E006DAD07 /* Simple log-in and sign-up pageTests */,
+				B31ED2492C35344E006DAD07 /* Simple log-in and sign-up pageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B31ED2282C35344C006DAD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31ED2372C35344E006DAD07 /* Assets.xcassets in Resources */,
+				B31ED23A2C35344E006DAD07 /* Base in Resources */,
+				B31ED2352C35344C006DAD07 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31ED23E2C35344E006DAD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31ED2482C35344E006DAD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B31ED2262C35344C006DAD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31ED2322C35344C006DAD07 /* ViewController.swift in Sources */,
+				B31ED22E2C35344C006DAD07 /* AppDelegate.swift in Sources */,
+				B31ED2302C35344C006DAD07 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31ED23C2C35344E006DAD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31ED2462C35344E006DAD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B31ED2422C35344E006DAD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31ED2292C35344C006DAD07 /* Simple log-in and sign-up page */;
+			targetProxy = B31ED2412C35344E006DAD07 /* PBXContainerItemProxy */;
+		};
+		B31ED24C2C35344E006DAD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31ED2292C35344C006DAD07 /* Simple log-in and sign-up page */;
+			targetProxy = B31ED24B2C35344E006DAD07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B31ED2332C35344C006DAD07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31ED2342C35344C006DAD07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B31ED2382C35344E006DAD07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31ED2392C35344E006DAD07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B31ED2522C35344E006DAD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B31ED2532C35344E006DAD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B31ED2552C35344E006DAD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8MQ39JANS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Simple log-in and sign-up page/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ruintelligence.Simple-log-in-and-sign-up-page";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B31ED2562C35344E006DAD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8MQ39JANS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Simple log-in and sign-up page/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ruintelligence.Simple-log-in-and-sign-up-page";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B31ED2582C35344E006DAD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8MQ39JANS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ruintelligence.Simple-log-in-and-sign-up-pageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple log-in and sign-up page.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Simple log-in and sign-up page";
+			};
+			name = Debug;
+		};
+		B31ED2592C35344E006DAD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8MQ39JANS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ruintelligence.Simple-log-in-and-sign-up-pageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple log-in and sign-up page.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Simple log-in and sign-up page";
+			};
+			name = Release;
+		};
+		B31ED25B2C35344E006DAD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8MQ39JANS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ruintelligence.Simple-log-in-and-sign-up-pageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple log-in and sign-up page";
+			};
+			name = Debug;
+		};
+		B31ED25C2C35344E006DAD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8MQ39JANS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ruintelligence.Simple-log-in-and-sign-up-pageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple log-in and sign-up page";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B31ED2252C35344C006DAD07 /* Build configuration list for PBXProject "Simple log-in and sign-up page" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31ED2522C35344E006DAD07 /* Debug */,
+				B31ED2532C35344E006DAD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31ED2542C35344E006DAD07 /* Build configuration list for PBXNativeTarget "Simple log-in and sign-up page" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31ED2552C35344E006DAD07 /* Debug */,
+				B31ED2562C35344E006DAD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31ED2572C35344E006DAD07 /* Build configuration list for PBXNativeTarget "Simple log-in and sign-up pageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31ED2582C35344E006DAD07 /* Debug */,
+				B31ED2592C35344E006DAD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31ED25A2C35344E006DAD07 /* Build configuration list for PBXNativeTarget "Simple log-in and sign-up pageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31ED25B2C35344E006DAD07 /* Debug */,
+				B31ED25C2C35344E006DAD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31ED2222C35344C006DAD07 /* Project object */;
+}
